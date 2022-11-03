@@ -1,0 +1,227 @@
+@font-face {
+  src: url('../fonts/NunitoSans-Regular.ttf');
+  font-family: 'NunitoSans Regular';
+}
+
+@font-face {
+  src: url('../fonts/YesevaOneRegular.ttf');
+  font-family: 'YesevaOne Regular';
+}
+
+body {
+  margin: 0;
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.header {
+  background: #131313;
+}
+
+.header-container {
+  max-width: 1256px;
+  display: flex;
+  height: 83px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.brown-text {
+  color: #e3b873;
+}
+
+.main-container {
+  max-width: 1236px;
+  margin: 0 auto;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.title {
+  margin: 0;
+  font-family: YesevaOne Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+}
+
+h2.title::after {
+  content: '';
+  display: block;
+  width: 92px;
+  height: 1px;
+  background: #e3b873;
+  position: relative;
+  top: -18px;
+  margin-left: 165px;
+}
+
+.projects {
+  background: #000;
+  padding-bottom: 18px;
+}
+
+.projects-container {
+  padding-top: 100px;
+  padding-bottom: 400px;
+  max-width: 1171px;
+}
+
+.projects-navigation {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 52px;
+  padding-left: 0;
+}
+
+.projects-navigation a {
+  margin-right: 59.5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-content-text {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+}
+
+.projects-title {
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  margin-bottom: 8px;
+  color: #e3b873;
+}
+
+.projects-subtitle {
+  font-size: 14px;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.city-text, .area, .time, .cost {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.line-decorate {
+  padding-bottom: 7px;
+  padding-left: 0 !important;
+}
+
+.line-decorate:hover {
+  border-bottom: 1px solid #e3b873;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-item {
+  width: 39%;
+  padding-bottom: 30px;
+}
+
+.description-item-title {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 9px;
+  color: #e3b873;
+}
+
+.arrows {
+  padding-top: 51px;
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  padding-right: 17px;
+}
+
+.slider {
+  width: 679px;
+  height: 482px;
+  background: url(../images/projects.svg);
+}
+
+.slider-element-2,
+.slider-element-3 {
+  display: none;
+}
+
+/* Navigation item styles */
+.slider-arrow-left,
+.slider-arrow-right {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.slider-arrow-left:hover {
+  opacity: 1;
+}
+
+.slider-arrow-right:hover {
+  opacity: 1;
+}
+
+.dot {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.dot-1 {
+  padding-left: 18px;
+  opacity: 1;
+}
+
+.dot:hover {
+  opacity: 1 !important;
+}
+
+.brown-hypertext {
+  border-bottom: 1px solid #e3b873;
+  color: #e3b873 !important;
+}
+
+a {
+  cursor: pointer;
+  color: #FFFFFF;
+}
